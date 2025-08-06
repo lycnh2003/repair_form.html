@@ -82,6 +82,7 @@
             <!-- Terms and Conditions Checkbox -->
             <div class="flex items-start">
                 <input id="terms" name="entry.1422961419" type="checkbox" required
+                       value="I acknowledge that I am the owner of this device and agree to the diagnostic process."
                        class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded mt-1">
                 <label for="terms" class="ml-2 block text-sm text-gray-900">
                     I acknowledge that I am the owner of this device and agree to the diagnostic process.
@@ -99,7 +100,7 @@
     </div>
 
     <!-- This iframe is used to handle the form submission without leaving the page -->
-    <iframe name="hiddenFrame" style="display:none;"></iframe>
+    <iframe name="hiddenFrame" id="hiddenFrame" style="display:none;"></iframe>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
